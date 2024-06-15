@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === 'production') {
         timezone: 'Etc/GMT-2',
       },
       logging: true,
-    },
+    }
   )
 } else {
   sequelize = new Sequelize('pokedex', 'root', '', {
